@@ -2,7 +2,7 @@ import { TravelView } from "@/modules/travel/ui/views/travel-view";
 import { HydrateClient, trpc } from "@/trpc/server";
 
 export const metadata = {
-  title: "Travel",
+  title: "Portfolio",
   description: "Travel",
 };
 

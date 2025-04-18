@@ -18,7 +18,7 @@ const ProfileCard = () => {
             {/* AVATAR  */}
             <Avatar className="size-[60px]">
               <AvatarImage
-                src="https://avatars.githubusercontent.com/u/16572906?s=400&u=a304af70d12572524d540553425d78ff4d1a101a&v=4"
+                src="https://avatars.githubusercontent.com/u/114517374?v=4"
                 alt="Avatar"
               />
               <AvatarFallback>EC</AvatarFallback>
@@ -26,14 +26,14 @@ const ProfileCard = () => {
 
             {/* NAME  */}
             <div className="flex flex-col gap-[2px]">
-              <h1 className="text-lg">ECarry</h1>
-              <p className="text-sm text-text-muted">Photographer</p>
+              <h1 className="text-lg">Vilet Studio</h1>
+              <p className="text-sm text-text-muted">Photography & Videography</p>
             </div>
           </div>
 
           <div className="lg:mt-4 xl:mt-0">
             <p className="text-text-muted text-[15px]">
-              I&apos;m ECarry, a photographer dedicated to capturing authentic
+              I&apos;m Leon, a photographer dedicated to capturing authentic
               moments and telling stories through creative and emotional
               imagery, wherever my journey takes me.
             </p>
@@ -48,10 +48,10 @@ const ProfileCard = () => {
       <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col justify-between gap-3">
         <ContactCard
           title="Instagram"
-          href="https://instagram.com/ekkooooooooooo0o0"
+          href="https://www.instagram.com/vilet_studio/"
         />
 
-        <ContactCard title="GitHub" href="https://github.com/ecarry" />
+        <ContactCard title="GitHub" href="https://github.com/Sir-Leon1" />
 
         <ContactCard
           title="Xiaohongshu"

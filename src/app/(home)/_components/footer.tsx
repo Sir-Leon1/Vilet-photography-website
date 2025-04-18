@@ -7,13 +7,13 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row gap-4 items-center">
         {/* AVATAR  */}
         <Avatar className="size-[60px]">
-          <AvatarImage src="https://avatars.githubusercontent.com/u/16572906?s=400&u=a304af70d12572524d540553425d78ff4d1a101a&v=4" />
+          <AvatarImage src="https://avatars.githubusercontent.com/u/114517374?v=4" />
           <AvatarFallback>EC</AvatarFallback>
         </Avatar>
 
         {/* NAME  */}
         <div className="flex flex-col items-center lg:items-start gap-[2px]">
-          <h1 className="text-2xl">ECarry</h1>
+          <h1 className="text-2xl">Gunnah Leon</h1>
           <p className="text-sm opacity-60">Photographer</p>
         </div>
       </div>
@@ -22,8 +22,8 @@ const Footer = () => {
           title="Pages"
           links={[
             { title: "Home", href: "/" },
-            { title: "Travel", href: "/travel" },
-            { title: "Discover", href: "/discover" },
+            { title: "Portfolio", href: "/travel" },
+            /*{ title: "Discover", href: "/discover" },*/
             { title: "Blog", href: "/blog" },
             { title: "About", href: "/about" },
           ]}
@@ -40,26 +40,35 @@ const Footer = () => {
 
       {/* Attribution */}
       <div className="text-sm">
-        <p>
-          <span className="opacity-60">© Design by </span>
-          <a
-            href="https://templates.gola.io/template/hanssen"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2"
-          >
-            Pawel Gola
-          </a>
-          <span className="opacity-60">. Powered by </span>
-          <a
-            href="https://github.com/ecarry"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2"
-          >
-            ECarry
-          </a>
-        </p>
+          <p>
+              <span className="opacity-60">© Design by </span>
+              <a
+                  href="https://templates.gola.io/template/hanssen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2"
+              >
+                  Pawel Gola
+              </a>
+              <span className="opacity-60">. Powered by </span>
+              <a
+                  href="https://github.com/ecarry"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2"
+              >
+                  ECarry
+              </a>
+              <span className="opacity-60">. & </span>
+              <a
+                  href="https://github.com/Sir-Leon1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2"
+              >
+                  Sir-Leon
+              </a>
+          </p>
       </div>
     </div>
   );

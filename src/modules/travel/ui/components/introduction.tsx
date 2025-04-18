@@ -3,7 +3,7 @@ import CardContainer from "@/components/card-container";
 export const Introduction = () => (
   <CardContainer>
     <div className="flex flex-col p-12 gap-[128px]">
-      <h1 className="text-4xl">Travel</h1>
+      <h1 className="text-4xl">Portfolio</h1>
       <div className="flex flex-col gap-4 font-light">
         <p>
           Exploring the world one step at a time, capturing life through street
